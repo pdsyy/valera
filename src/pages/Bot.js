@@ -36,21 +36,10 @@ import axios from "axios"
 const Bot = () => {
 
     let paying = async () => {
-        await axios.post(`https://api.whitepay.com/private-api/crypto-orders/1c025f2a-ac67-4423-9d7b-94579c5e33d9`, {
-            amount: "849",
-            currency: "USDT",
-        }, {
-            headers: {
-                'Authorization': `Bearer D8SqBILcivBK7FvHam85yAMZdcVdhNMenWFgBFMe`
-            }
-        }).then((response) => {
-            console.log(response.data);
-            console.error(response.status);
-            document.location.href = response.data.order.acquiring_url
-        }).catch((error) => {
-            console.error(error.response.data.errors);
-        });
-
+        axios.get("http://localhost:5000/").then((data) => {
+            console.log(data.data)
+            document.location.href = data.data
+        })
     }
     const [stats, setStats] = useState([]);
     const counterRef = useRef(null);
