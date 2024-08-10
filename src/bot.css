@@ -446,8 +446,7 @@ text-align: center;
 .need_bot button {
     padding: 14px 98px;
     border-radius: 87px;
-    margin-left: 50%;
-    transform: translate(-50%);
+
     margin-top: 48px;
 }
 .hi_trading_bot{

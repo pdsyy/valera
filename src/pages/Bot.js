@@ -36,9 +36,9 @@ import axios from "axios"
 const Bot = () => {
 
     let paying = async () => {
-        axios.get("http://localhost:5000/").then((data) => {
+        axios.get("https://hitrading.com.ua/api/v1/user/some").then((data) => {
             console.log(data.data)
-            document.location.href = data.data
+            document.location.href = data.data.order.acquiring_url
         })
     }
     const [stats, setStats] = useState([]);
@@ -91,8 +91,10 @@ const Bot = () => {
                         <p>Це чудовий інструмент для пассивного інвестування, який за рахунок складного відсотка
                             збільшує Ваш капітал.</p>
                     </div>
-                    <a href = "https://t.me/volodymyr_fx">
-                    <button className="button_style first_block_button">
+                    <a href="#">
+                    <button className="button_style first_block_button" onClick={() => {
+                        document.querySelector(".video_about_page").classList.add("dis_block")
+                    }}>
                         Придбати бота
                     </button>
                     </a>
@@ -159,11 +161,13 @@ const Bot = () => {
 <br/>
                             Користуючись алгоритмами, наші клієнти отримали більше 20-ти виплат з проп-компаній на загальну суму більше 22 000 доларів.
                         </p>
-                        <a href = "https://t.me/volodymyr_fx">
-                        <button className = "button_style">
+
+                        <button className = "button_style" onClick={() => {
+                            document.querySelector(".video_about_page").classList.add("dis_block")
+                        }}>
                             Придбати бота
                         </button>
-                        </a>
+
                     </div>
                     <div className = "unique_bot_main_about_video mob_n">
                         <iframe src="https://www.youtube.com/embed/sVCSmWhDmVU"
@@ -224,11 +228,13 @@ const Bot = () => {
                     <img src = {pidkl4} alt = ""/>
                 </div>
 
-                <a href = "https://t.me/volodymyr_fx">
-                <button className = "button_style">
+
+                <button className = "button_style" onClick={() => {
+                    document.querySelector(".video_about_page").classList.add("dis_block")
+                }}>
                     Придбати
                 </button>
-                </a>
+
 
             </div>
             <div className = "hi_trading_bot">

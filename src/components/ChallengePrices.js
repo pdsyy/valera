@@ -86,9 +86,11 @@ const ChallengePrices = () => {
                                     <div>$ 997</div>
                                 </div>
                             </div>
+                            <a href = "https://t.me/volodymyr_fx">
                             <button className = "button_style">
                                 Пройти челендж
                             </button>
+                            </a>
                         </div>
                     </div>
                     <div className = "desc_prices_chall_ins s">
@@ -156,9 +158,11 @@ const ChallengePrices = () => {
                                     <div>$ 997</div>
                                 </div>
                             </div>
-                            <button className = "button_style">
-                                Пройти челендж
-                            </button>
+                            <a href = "https://t.me/volodymyr_fx">
+                                <button className = "button_style">
+                                    Пройти челендж
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className = "desc_prices_chall_ins s">
@@ -233,9 +237,11 @@ const ChallengePrices = () => {
                                     <div>$ 988</div>
                                 </div>
                             </div>
-                            <button className = "button_style">
-                                Пройти челендж
-                            </button>
+                            <a href = "https://t.me/volodymyr_fx">
+                                <button className = "button_style">
+                                    Пройти челендж
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className = "desc_prices_chall_ins s">

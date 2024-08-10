@@ -70,6 +70,7 @@ const Sertifikate = () => {
     };
 
     return (
+
         <div className="sert" style={{width: "100%", position:"relative"}}>
             <h2>
                 Сертифікати
@@ -79,6 +80,7 @@ const Sertifikate = () => {
                 </div>
             </h2>
             <div className="sert_card" style={{width: "100%"}}>
+
                 <Slider {...settings} ref={slider => {
                     sliderRef = slider;
                 }}>
@@ -110,9 +112,12 @@ const Sertifikate = () => {
                     <div>
                         <img src={r10} alt=""/>
                     </div>
+
                 </Slider>
+
             </div>
         </div>
+
     );
 };
 
