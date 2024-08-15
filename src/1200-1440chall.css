@@ -103,12 +103,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 0px;
-        width: 100%;
+        width: 101%;
         margin-top: -51px;
         margin-left: -20px;
     }
     .process_s img {
-        width: 107%;
+        width: 109%;
+        margin-left: -12px;
     }
 
     .process_f.for_tablet_mobile_min{
@@ -203,7 +204,10 @@
         margin-top: 0px;
     }
     .third_p .about_prices_faq {
-        margin-top: 0px;
+        margin-top: 42px;
+    }
+    .process_f img{
+        height: 100%;
     }
     .third_p .desc_prices_chall_ins.f button {
         padding: 10px 17px;

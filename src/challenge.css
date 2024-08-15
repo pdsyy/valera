@@ -11,12 +11,38 @@
 .first_block .main_description_chall{
     z-index: 2;
 }
+.desc_prices_chall button{
+    width: 100%;
+}
+.zach{
+    color: #A7A7A7;
+    text-decoration: line-through;
+    margin-right: 12px;
+}
 @media screen and (min-width: 1920px) {
     .process img{
         margin-left: 50%;
         transform: translate(-50%);
     }
+    .third_p .about_prices_faq{
+        margin-top: 120px !important;;
+    }
+    .desc_prices_chall_ins img{
+        height: 92px;
+    }
+    .desc_prices_chall.first_p button{
+        margin-top: 90px !important;
+    }
+    .desc_prices_chall_ins.s .third_p .about_prices_faq{
+        margin-top: 74px !important;
+    }
 
+}
+.third_p .desc_prices_chall_ins.f button{
+    margin-top: 24px !important;
+}
+.third_p .about_prices_faq{
+    margin-top: 36px ;
 }
 .process{
     overflow-x: hidden;
@@ -355,7 +381,7 @@ margin-top: 36px;
 background: #F5F5F5;
 border-radius: 10px;
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
 height: 77px;
 font-size: 24px;
 font-weight: 600;
@@ -493,7 +519,7 @@ display: flex;
     margin-top: 149px;
 }
 .third_p .about_prices_faq{
-    margin-top: 24px;
+    margin-top: 36px;
 }
 .about_prices_faq{
     background: #FFF383;
@@ -632,7 +658,7 @@ display: none;
         margin-top: 74px !important;
     }
     .desc_prices_chall.third_p .desc_prices_chall_ins.f button {
-        margin-top: 142px !important;
+        margin-top: 15px !important;
     }
     .strel_sert {
         right: 0;
@@ -1097,7 +1123,7 @@ display: none;
         scrollbar-width: none;
     }
     .razz{
-        width: 107% !important;
+        width: 100% !important;
     }
     .video_variants div{
         width: 149px;

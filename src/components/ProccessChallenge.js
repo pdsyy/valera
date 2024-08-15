@@ -15,6 +15,10 @@ import proc3 from "../images_challenge/proc3.svg";
 import proc4 from "../images_challenge/proc4.svg";
 import proc5 from "../images_challenge/proc5.svg";
 import procL from "../images_challenge/challLK2.png";
+import procL1 from "../images_challenge/newK1.png";
+import procF from "../images_challenge/ProcF.png";
+import procS from "../images_challenge/ProcS.png";
+import procT from "../images_challenge/ProcT.png";
 
 const ProccessChallenge = () => {
     return (
@@ -22,7 +26,7 @@ const ProccessChallenge = () => {
             {window.innerWidth > 374 && window.innerWidth < 768 ?<>
                 <h2>Процес отримання <span>Funded акаунту</span></h2>
                 <div className="process_f for_tablet_mobile">
-                    <div><img src={procL} alt="" className = "razz"/></div>
+                    <div><img src={procL1} alt="" className = "razz"/></div>
                     <div><img src={proc2} alt=""/></div>
                     <div><img src={proc3} alt=""/></div>
                     <div className = "for_tablet_mobile non"><img src={proc4} alt=""/></div>
@@ -42,13 +46,13 @@ const ProccessChallenge = () => {
                 <>
     <h2>Процес отримання <span>Funded акаунту</span></h2>
     <div className="process_f for_tablet_mobile">
-        <div><img src={newMin1} alt=""/></div>
-        <div><img src={newMin2} alt=""/></div>
-        <div><img src={newMin3} alt=""/></div>
+        <div><img src={procF} alt=""/></div>
+        <div><img src={procS} alt=""/></div>
+        <div><img src={procT} alt=""/></div>
         <div className = "for_tablet_mobile o"><img src={newMin} alt=""/></div>
     </div>
     <div className="process_f for_tablet_mobile_min">
-        <div><img src={frame65} alt=""/></div>
+        <div><img src={procL1} alt=""/></div>
         <div><img src={frame66} alt=""/></div>
         <div><img src={frame67} alt=""/></div>
         <div className = "for_tablet_mobile o"><img src={newMin} alt=""/></div>

@@ -3,6 +3,7 @@ import monitor from "../images/Monitor_06 1.png"
 import partner1 from "../images/logo2 2.png"
 import partner2 from "../images/Mask-group 1.png"
 import partner3 from "../images/ban_logo3.png"
+import partner4 from "../images/logo 3.svg"
 import mainB from "../images/11.png"
 
 const Banner = () => {
@@ -43,9 +44,8 @@ const Banner = () => {
                 для створення пасивного доходу.
             </div>
             <div className="partners">
-                <div><img src={partner1}/></div>
                 <div className = "novaF"><img src={partner2} className="nova"/> NOVA FUNDING</div>
-                <div><img src={partner3}/></div>
+                <div><img src={partner4} alt = ""/></div>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import kortana from "../images_challenge/kortana.png";
 import tradicave from "../images_challenge/tradicave.png";
 import warn from "../images_challenge/WarningCircle.png";
 import warn1 from "../images_challenge/warn.svg";
+import flashF from "../images_challenge/flashF.png";
 
 const ChallengePrices = () => {
     return (
@@ -31,19 +32,7 @@ const ChallengePrices = () => {
                         first.classList.add("dis_grid")
                         first.classList.remove("dis_none")
                     }}>Nova Funding</span></div>
-                    <div><span onClick = {(e) => {
-                        document.querySelectorAll(".challenge_prices_tar_variants span").forEach((e) => {
-                            e.classList.remove("variants_chall")
-                        })
-                        e.currentTarget.classList.add("variants_chall")
-                        let first = document.querySelector(".desc_prices_chall.first_p")
-                        let second = document.querySelector(".desc_prices_chall.second_p")
-                        let third = document.querySelector(".desc_prices_chall.third_p")
-                        first.classList.add("dis_none")
-                        third.classList.add("dis_none")
-                        second.classList.add("dis_grid")
-                        second.classList.remove("dis_none")
-                    }}>KortanaFX</span></div>
+
                     <div><span onClick = {(e) => {
                             document.querySelectorAll(".challenge_prices_tar_variants span").forEach((e) => {
                                 e.classList.remove("variants_chall")
@@ -57,7 +46,7 @@ const ChallengePrices = () => {
                             third.classList.add("dis_grid")
                             third.classList.remove("dis_none")
                         }}
-                    >Tradicave</span></div>
+                    >Flash Funded</span></div>
                 </div>
                 <div className="desc_prices_chall first_p">
                     <div className = "desc_prices_chall_ins f">
@@ -213,7 +202,7 @@ const ChallengePrices = () => {
                 <div className="desc_prices_chall third_p dis_none">
                     <div className = "desc_prices_chall_ins f">
                         <div className="logo_prices_chall">
-                            <img src={tradicave} alt=""/>
+                            <img src={flashF} alt=""/>
                         </div>
                         <div className = "desc_chall_prices">
                             <div className = "price">
@@ -221,20 +210,32 @@ const ChallengePrices = () => {
                             </div>
                             <div className = "prices_pr">
                                 <div className = "prices_pr_ins">
-                                    <div>25k</div>
-                                    <div>$ 248</div>
+                                    <div>30k</div>
+                                    <div><span className = "zach">$ 297</span> $ 252</div>
                                 </div>
                                 <div className = "prices_pr_ins">
                                     <div>50k</div>
-                                    <div>$ 358</div>
+                                    <div><span className = "zach">$ 357</span>$ 303</div>
                                 </div>
                                 <div className = "prices_pr_ins">
                                     <div>100k</div>
-                                    <div>$ 548</div>
+                                    <div><span className = "zach">$ 547</span>$ 465</div>
+                                </div>
+                                <div className = "prices_pr_ins">
+                                    <div>150k</div>
+                                    <div><span className = "zach">$ 847</span>$ 720</div>
                                 </div>
                                 <div className = "prices_pr_ins">
                                     <div>200k</div>
-                                    <div>$ 988</div>
+                                    <div><span className = "zach">$ 947</span>$ 805</div>
+                                </div>
+                                <div className = "prices_pr_ins">
+                                    <div>300k</div>
+                                    <div><span className = "zach">$ 2060</span>$ 1751</div>
+                                </div>
+                                <div className = "prices_pr_ins">
+                                    <div>400k</div>
+                                    <div><span className = "zach">$ 3400</span>$ 2890</div>
                                 </div>
                             </div>
                             <a href = "https://t.me/volodymyr_fx">
@@ -250,11 +251,11 @@ const ChallengePrices = () => {
                                 <div className = "zag">Особливості проп компанії</div>
                                 <div className = "about_zag">
                                     <ul>
-                                        <li>Обирати тільки однофазовий челендж</li>
-                                        <li>Проходження за 1-2 дні</li>
-                                        <li>Максимальний депозит на 1 людину : <span>$ 600к</span></li>
-                                        <li>Перша виплата через 30 днів, друга через 21 день, третя через 14</li>
-                                        <li>Вивід на крипту або Swift</li>
+                                        <li>Максимальний лос - 7%</li>
+                                        <li>Правило 2 хвилин</li>
+                                        <li>Правило послідовності</li>
+                                        <li>Перша виплата через 21 день, наступні - кожні 14 днів</li>
+                                        <li>Правило 40%</li>
                                     </ul>
                                 </div>
                             </div>
@@ -262,16 +263,16 @@ const ChallengePrices = () => {
                                 <div className = "zag">Profit Split</div>
                                 <div className = "about_zag">
                                     <ul>
-                                        <li>Перша виплата: 50%</li>
+                                        <li>Перша виплата: 60%</li>
                                         <li>Друга : 70%</li>
                                         <li>Третя: 80%</li>
-                                        <li>Четверта : 80%</li>
+                                        <li>Четверта : 90%</li>
                                     </ul>
                                     <div className = "zag">Спреди:</div>
                                     <div className = "about_zag_star">
                                         <ul>
-                                            <li>EU: 1-2</li>
-                                            <li>GU: 2-5</li>
+                                            <li>Ідентичні - FTMO</li>
+
                                         </ul>
                                     </div>
                                 </div>

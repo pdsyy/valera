@@ -49,10 +49,6 @@
     .sert_card img{
         height: 330px !important;
     }
-    .process img{
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
     .video_about_page .fk{
         display: block;
     }
@@ -399,13 +395,13 @@ h2.feedback_zag {
 }
 
 .partners {
-    width: 876px;
+    width: 513px;
     height: 52px;
     margin-top: 48px;
     margin-left: 50%;
     transform: translate(-50%);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
 }
 
@@ -931,7 +927,7 @@ button {
         width: 518px;
     }
     .novaF{
-        width: 254px;
+        width: 271px;
     }
     .white_block{
         height: auto !important;
@@ -1787,7 +1783,7 @@ button {
 
     .partners {
         margin-top: 43px;
-        width: 630px;
+        width: 503px;
         height: 35px;
     }
 
@@ -2210,8 +2206,8 @@ button {
     }
 
     .nova {
-        width: 29px;
-        height: 29px;
+        width: 52px;
+        height: 52px !important;
     }
 
     .poslugi {
