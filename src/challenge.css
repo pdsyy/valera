@@ -25,13 +25,13 @@
         transform: translate(-50%);
     }
     .third_p .about_prices_faq{
-        margin-top: 120px !important;;
+        margin-top: 147px !important;;
     }
     .desc_prices_chall_ins img{
-        height: 92px;
+        max-height: 92px;
     }
     .desc_prices_chall.first_p button{
-        margin-top: 90px !important;
+        margin-top: 102px !important;
     }
     .desc_prices_chall_ins.s .third_p .about_prices_faq{
         margin-top: 74px !important;
@@ -527,7 +527,7 @@ display: flex;
     text-align: left;
     font-size: 22px;
     font-weight: 600;
-    height: 117px;
+    height: 90px;
     border-radius: 6px;
     line-height: 29px;
     display: flex;

@@ -19,6 +19,7 @@ import procL1 from "../images_challenge/newK1.png";
 import procF from "../images_challenge/ProcF.png";
 import procS from "../images_challenge/ProcS.png";
 import procT from "../images_challenge/ProcT.png";
+import procFf from "../images_challenge/qwe].png";
 
 const ProccessChallenge = () => {
     return (
@@ -32,7 +33,7 @@ const ProccessChallenge = () => {
                     <div className = "for_tablet_mobile non"><img src={proc4} alt=""/></div>
                 </div>
                 <div className="process_f for_tablet_mobile_min">
-                <div><img src={procL} alt="" className = 'first_img razz'/></div>
+                <div><img src={procFf} alt="" className = 'first_img razz'/></div>
     <div><img src={proc2} alt=""/></div>
     <div><img src={proc3} alt=""/></div>
     <div className = "for_tablet_mobile o"><img src={proc4} alt=""/></div>
