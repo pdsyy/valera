@@ -4,6 +4,7 @@ import partner1 from "../images/logo2 2.png"
 import partner2 from "../images/Mask-group 1.png"
 import partner3 from "../images/ban_logo3.png"
 import partner4 from "../images/logo 3.svg"
+import partner5 from "../images/flash1.png"
 import mainB from "../images/11.png"
 
 const Banner = () => {
@@ -45,7 +46,7 @@ const Banner = () => {
             </div>
             <div className="partners">
                 <div className = "novaF"><img src={partner2} className="nova"/> NOVA FUNDING</div>
-                <div><img src={partner4} alt = ""/></div>
+                <div><img src={partner5} alt = ""/></div>
             </div>
         </div>
     );

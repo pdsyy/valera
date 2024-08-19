@@ -18,6 +18,7 @@
     color: #A7A7A7;
     text-decoration: line-through;
     margin-right: 12px;
+    display: none;
 }
 @media screen and (min-width: 1920px) {
     .process img{
@@ -1320,16 +1321,13 @@ br{
     .process img{
         margin-top: -57px;
     }
-    .process_s img{
-        width: 112% !important;
 
-    }
     .process h2 span{
         padding: 2px 19px;
     }
 .process_f {
     grid-template-columns: 1fr;
-    grid-gap: 0px;
+    grid-gap: 12px;
 }
 .process_s {
     display: grid;

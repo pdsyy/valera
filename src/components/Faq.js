@@ -13,7 +13,7 @@ const Faq = () => {
                         document.querySelector(".anss1").classList.toggle("open_p_faq")
 
                         document.querySelector(".fk").classList.toggle("rotateKrest")
-                    }}>Чому проходите челенджі тільки на Nova Funding/KortanaFx/Tradicave?
+                    }}>Чому проходите челенджі тільки на Nova Funding/Flash Funded?
                         <img src={plus} alt="" className = "fk"/>
                     </div>
                     <div className = "anss1">

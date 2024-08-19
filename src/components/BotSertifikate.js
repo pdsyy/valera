@@ -107,9 +107,7 @@ const BotSertifikate = () => {
                     <div>
                         <img src={r9} alt=""/>
                     </div>
-                    <div>
-                        <img src={r10} alt=""/>
-                    </div>
+
                 </Slider>
             </div>
         </div>

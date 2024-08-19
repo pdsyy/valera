@@ -11,10 +11,10 @@ import stat2 from "../images_bot/stat2.png"
 import pidkl2 from "../images_bot/pidkl2.png"
 import pidkl3 from "../images_bot/pidkl3.png"
 import pidkl4 from "../images_bot/pidkl4.png"
-import FPidkl from "../images_bot/FPidkl.svg"
-import SPidkl from "../images_bot/SPidkl.svg"
-import TPidkl from "../images_bot/TPidkl.svg"
-import FoPidkl from "../images_bot/FoPidkl.svg"
+import FPidkl from "../images_bot/qwe1.png"
+import SPidkl from "../images_bot/qwe2.png"
+import TPidkl from "../images_bot/qwe3.png"
+import FoPidkl from "../images_bot/qwe4.png"
 import HiBot1440 from "../images_bot/stat5.png"
 import Sertifikate from "../components/Sertifikate";
 import SliderChallenge from "../components/PricesChallenge";
@@ -215,10 +215,10 @@ const Bot = () => {
                 </div>
 
                     <div className = "images_need_bot mob_y">
-                        <img src = {FPidkl} alt = ""/>
-                        <img src = {SPidkl} alt = ""/>
-                        <img src = {TPidkl} alt = ""/>
-                        <img src = {FoPidkl} alt = ""/>
+                        <img src = {FPidkl} alt = "" loading = "lazy"/>
+                        <img src = {SPidkl} alt = "" loading = "lazy"/>
+                        <img src = {TPidkl} alt = "" loading = "lazy"/>
+                        <img src = {FoPidkl} alt = "" loading = "lazy"/>
                     </div>
 
                     <div className = "images_need_bot mob_n">

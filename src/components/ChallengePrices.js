@@ -60,19 +60,19 @@ const ChallengePrices = () => {
                             <div className = "prices_pr">
                                 <div className = "prices_pr_ins">
                                     <div>25k</div>
-                                    <div>$ 297</div>
+                                    <div>$ 339</div>
                                 </div>
                                 <div className = "prices_pr_ins">
                                     <div>50k</div>
-                                    <div>$ 397</div>
+                                    <div>$ 439</div>
                                 </div>
                                 <div className = "prices_pr_ins">
                                     <div>100k</div>
-                                    <div>$ 597</div>
+                                    <div>$ 739</div>
                                 </div>
                                 <div className = "prices_pr_ins">
                                     <div>200k</div>
-                                    <div>$ 997</div>
+                                    <div>$ 1239</div>
                                 </div>
                             </div>
                             <a href = "https://t.me/volodymyr_fx">
@@ -106,8 +106,8 @@ const ChallengePrices = () => {
                                     <div className = "zag">Спреди:</div>
                                     <div className = "about_zag_star">
                                         <ul>
-                                            <li>EU: 2-4</li>
-                                            <li>GU: 5-7</li>
+                                            <li>EU: 7-9</li>
+                                            <li>GU: 8-10</li>
                                         </ul>
                                     </div>
                                 </div>
