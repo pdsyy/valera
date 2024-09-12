@@ -11,6 +11,7 @@ import AboutUsChallenge from "../components/AboutUsChallenge";
 import Pred from "../components/Pred";
 import "../1200-1440chall.css"
 import plus from "../images/Vector (1).png";
+import Garanty from "../components/Garanty";
 const Challenge = () => {
 
     return (
@@ -26,9 +27,10 @@ const Challenge = () => {
             </div>
             <ChallengeFirstBlock/>
             <AboutChallengeSecondBlock/>
-            <PerevChallenge/>
+            <Garanty/>
+            {/*<PerevChallenge/>*/}
             <ProccessChallenge/>
-            <VideoAboutChallenge/>
+            {/* <VideoAboutChallenge/>*/}
             <ChallengePrices/>
             <SliderChallenge/>
             <Pred/>

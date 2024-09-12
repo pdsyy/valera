@@ -16,17 +16,17 @@ function App() {
 
 
 
-  return (
-    <div className="App">
-        <Header/>
-        <Routes>
-            <Route path="/" index element={<MainPage/>}/>
-            <Route path="/challenge" element={<Challenge/>}/>
-            <Route path="/bot" element={<Bot/>}/>
-        </Routes>
-        <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Routes>
+                {/*<Route path="/challenge" index element={<MainPage/>}/>*/}
+                <Route path="/" index element={<Challenge/>}/>
+                {/*<Route path="/bot" element={<Bot/>}/>*/}
+            </Routes>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

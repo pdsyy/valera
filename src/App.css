@@ -3,7 +3,9 @@
     font-family: Lato;
     src: url("./woff/Lato-Regular.ttf");
 }
-
+.App{
+    overflow: hidden;
+}
 .video_about_page{
     display: none;
     width: 100vw;
@@ -425,10 +427,11 @@ h2.feedback_zag {
 }
 
 .partners img {
-    height: 100%;
+
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
+    height: 52px;
     text-align: center;
 
 }
@@ -1402,6 +1405,8 @@ button {
     }
 
     .poslugi {
+        z-index: 9999;
+        position: relative;
         padding: 90px 0 78px 0;
     }
 
@@ -1797,6 +1802,8 @@ button {
     }
 
     .poslugi {
+        z-index: 9999;
+        position: relative;
         padding: 88px 0 80px 0;
     }
 
